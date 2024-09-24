@@ -1,0 +1,43 @@
+
+
+html
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background-color: whitesmoke;
+}
+
+h1
+{
+    font-size: 70px;
+}
+h3
+{
+    color: #5d786d;
+}
+
+.bothsides
+{
+    max-width: 50%;
+    border-top: 5px solid #5d786d;
+}
+.leftside
+{
+    position: relative;
+    width: 35%;
+    float: left;
+    text-align: right;
+    border-right: 5px solid #5d786d;
+    padding-right: 10px;
+}
+
+.rightside
+{
+    position:relative;
+    float:inline-end;
+    width: 62%;
+    text-align: justify;
+}
